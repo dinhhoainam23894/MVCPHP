@@ -71,7 +71,7 @@ Model sẽ xử lý yêu cầu đến cơ sở dữ liệu của chúng ta. Vì 
 
  Bây giờ chúng ta đã thiết lập dispatcher, trang web của chúng ta có thể load một hành động từ controller.
 
-Ở đây chúng ta muốn tạo một ứng dụng những việc cần làm, vì vậy chúng ta phải tạo một  _tasksController.php_. Controller này sẽ yêu cầu dữ liệu từ model Task.php và sau đó chuyển dữ liệu tới view. Để làm cho quá trình này dễ dàng hơn, chúng ta sẽ tạo một  parent class Controller để xử lý việc này.
+Ở đây chúng ta muốn tạo một ứng dụng todo, vì vậy chúng ta phải tạo một  _tasksController.php_. Controller này sẽ yêu cầu dữ liệu từ model Task.php và sau đó chuyển dữ liệu tới view. Để làm cho quá trình này dễ dàng hơn, chúng ta sẽ tạo một class cha Controller để xử lý việc này.
 
 ![][11]
 
@@ -91,7 +91,7 @@ Và đây là kết quả :
 
 MVC framework của chúng ta đã được thiết lập ! Bây giờ chúng ta chỉ cần thực hiện các hành động CRUD về nhiệm vụ. Nếu bạn muốn biết thêm chi tiết về điều này và nhận trang web với các nhiệm vụ CRUD, bạn có thể kiểm tra repo trên Github của tôi.
 
-Vì vậy, bây giờ, bạn đã phát triển một cấu trúc MVC bền vững hơn nhiều so với trang web php truyền thống của chúng tôi. Nhưng vẫn còn rất nhiều việc phải làm (bảo mật, xử lý lỗi lỗi). Các chủ đề này đã được xử lý bởi các framework như Laravel hoặc Symfony.
+Vì vậy, bây giờ, bạn đã phát triển một cấu trúc MVC bền vững hơn nhiều so với trang web php truyền thống của chúng tôi. Nhưng vẫn còn rất nhiều việc phải làm (bảo mật, xử lý lỗi). Các chủ đề này đã được xử lý bởi các framework như Laravel hoặc Symfony.
 
 [1]: https://cdn-images-1.medium.com/max/1600/1*xnuMvzXzmAxYXcRrd1Wj5Q.png
 [2]: https://cdn-images-1.medium.com/max/1600/1*IA0nHOylfQYxjnGwi1XGaQ.png
